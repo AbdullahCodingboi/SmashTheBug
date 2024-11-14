@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+}
+.score{
+    display: flex;
+    gap: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#start{
+    background-color: lightslategray;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 100px;
+    transition: 0.5s ease;
+}
+#start:hover{
+    transform: scale(0.85);
+    background-color: fuchsia;
+}
+.main{
+    display: flex;
+    padding: 20px;
+  
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 470px;
+    width: 430px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 48);
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+}
